@@ -108,6 +108,11 @@ ul {
     line-height: 26px;
     text-decoration: none;
 }
+.navbar a:hover {
+    font-size: 1.2rem;
+    color: #FF900E;
+    transition: all;
+}
 
 /* banner-section */
 .banner-content {
@@ -202,9 +207,15 @@ ul {
 .feature-card {
     max-width: 586px;
     padding: 30px;
-    box-shadow: 0px 0px 10px rgba(165, 157, 157, 0.637);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     margin-top: 20px;
+}
+
+.feature-card:hover{
+    transform: scale(1.1);
+    background-color: #e9e0d7;
+    transition: all;
 }
 
 .feature-card h4 {
@@ -242,7 +253,7 @@ ul {
     list-style: 70px;
 }
 
-.featur-enjoy-img .experience {
+.feature-enjoy-img .experience {
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 40px;
@@ -281,6 +292,12 @@ ul {
     height: 240px;
     justify-content: center;
     align-items: center;
+}
+
+.some-card:hover{
+    transform: scale(1.1);
+    transition: all;
+    background-color: #e9e0d7;
 }
 
 .some-card img {
@@ -339,6 +356,12 @@ ul {
     max-width: 180px;
     filter: grayscale(100%);
 
+}
+
+.sponsor-company img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    transition: all;
 }
 
 /* footer section  */
